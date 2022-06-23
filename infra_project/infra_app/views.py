@@ -2,8 +2,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('<center><b>У меня получилось!</b></center>')
+    return HttpResponse("<html><body><center><b>У меня получилось!</b></center></body></html>")
 
 
 def second_page(request):
-    return HttpResponse('<strong>А это вторая страница</strong>')
+    return HttpResponse("<html><body><strong>А это вторая страница</strong></body></html>")
